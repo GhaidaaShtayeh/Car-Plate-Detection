@@ -2,10 +2,16 @@ close all;
 clear all;
 
 % Read the input image
-im = imread('Number Plate Images/image1.png');
+im = imread('Number Plate Images/image2.png');
 
 % Convert the image to grayscale
 imgray = rgb2gray(im);
+
+% Apply a Gaussian filter to smooth out the image
+imgray = imgaussfilt(imgray, 1);
+
+% Apply a median filter to remove salt and pepper noise
+imgray = medfilt2(imgray, [3 3]);
 
 % Binarize the grayscale image
 imbin = imbinarize(imgray);
@@ -61,4 +67,4 @@ end
 
 % Print the final license plate number
 fprintf('noPlate = %s\n', noPlate);
-searchNumberPlate(noPlate, 'numbers_plates.txt');
+search_number_plate(noPlate, 'numbers_plates.txt');
