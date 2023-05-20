@@ -59,8 +59,6 @@ elseif ind==29
     letter='V';
 elseif ind==30
     letter='W';
-elseif ind==31
-    letter='X';
 elseif ind==32
     letter='Y';
 elseif ind==33
@@ -86,6 +84,6 @@ elseif ind==44 || ind==45
 elseif ind==46 || ind==47 || ind==48
     letter='9';
 else
-    letter='0';
+    letter=' ';
 end
 end

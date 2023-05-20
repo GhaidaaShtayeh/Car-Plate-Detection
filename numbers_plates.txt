@@ -6,3 +6,4 @@ UP16PQ7890,Kelly Johnson,Hyundai,i20,Silver
 HR2BUK83,Kelly Johnson,Hyundai,i20,Silver
 HR26DK83OO,Kelly Johnson,Hyundai,i20,Silver
 MH12DE14QO,Jane Doe,Honda,City,Red
+MH12DE14,Jane Doe,Honda,City,Red
