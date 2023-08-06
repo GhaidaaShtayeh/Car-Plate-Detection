@@ -1,7 +1,5 @@
 # car-plate-detection
 
-**License Plate Detection and Recognition using MATLAB - README**
-
 **Project Description:**
 License Plate Detection and Recognition is a computer vision project implemented in MATLAB. The goal of this project is to automatically detect and extract license plate regions from an input image and then recognize the alphanumeric characters on the license plate. The project utilizes various image processing techniques to achieve accurate and efficient license plate analysis.
 
